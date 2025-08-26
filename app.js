@@ -11,7 +11,7 @@ import appointRouter from "./router/appointRouter.js"
 
 
 const app = express();
-config({path:"./config/config.env"});
+config({path:"./config.env"});
 
 // middleware to connect frontend and backend
 //CORS:cross oriigin resource sharing help to share resources from two different port. Browser stop the sharing of resource cross origin by default.To prevent from this we use cors.
